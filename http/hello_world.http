@@ -1,2 +1,28 @@
-GET http://localhost:3000/
+GET http://localhost:3000/api/wilder/
+Content-Type: application/json 
+
+
+###
+
+DELETE http://localhost:3000/api/wilder/
+Content-Type: application/json 
+
+{ 
+    "id": 5
+}
+
+
+###
+PUT http://localhost:3000/api/wilder
+Content-Type: application/json 
+
+{ 
+    "id": 405
+}
+
+###
+
+POST http://localhost:3000/api/wilder/405/2
+Content-Type: application/json 
+
 
