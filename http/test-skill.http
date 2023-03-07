@@ -1,0 +1,37 @@
+Get http://localhost:3000/api/skill/
+Content-Type: application/json 
+
+###
+DELETE http://localhost:3000/api/skill/
+Content-Type: application/json 
+
+{ 
+    "id": 1
+}
+
+###
+PUT http://localhost:3000/api/skill
+Content-Type: application/json 
+
+{ 
+    "id": 2,
+    "name": "PhP"
+}
+
+
+###
+POST http://localhost:3000/api/skill
+Content-Type: application/json 
+
+{ 
+    "id": 3,
+    "name": "javascript"
+}
+
+###
+
+POST http://localhost:3000/api/wilder/405/2
+Content-Type: application/json 
+
+
+
